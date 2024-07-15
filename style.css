@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+}
+
+.container {
+    background-color: hsl(0, 0%, 95%);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 400px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.column1 {
+    padding: 2.3rem 2.5rem;
+    background-color: hsl(31, 77%, 52%);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+span {
+    font-family: "Big Shoulders Display", sans-serif;
+    /* letter-spacing: -2px; */
+}
+
+p{
+    margin: 0;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 25px;
+    font-weight: 300;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 14px;
+}
+
+button {
+    margin-top: 4rem;
+    width: 120px;
+    border-radius: 40px;
+    height: 40px;
+    border-style: solid;
+    border-color: hsl(0, 0%, 95%);
+    font-family: "Lexend Deca", sans-serif;
+}
+
+.column2 {
+    padding: 2.3rem 2.5rem;
+    background-color: hsl(184, 100%, 22%);
+    display: flex;
+    flex-direction: column;
+}
+
+.column3 {
+    padding: 2.3rem 2.3rem;
+    background-color: hsl(179, 100%, 13%);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.button1 {
+    color: hsl(31, 77%, 52%); 
+    font-weight: 400; 
+    background-color: hsl(0, 0%, 95%);
+    transition: 0.3s;
+}
+
+
+.button1:hover {
+    background-color: hsl(31, 77%, 52%); 
+    color: hsl(0, 0%, 95%);
+}
+
+.button2 {
+    color: hsl(184, 100%, 22%); 
+    font-weight: 400;
+    background-color: hsl(0, 0%, 95%);
+    transition: 0.3s;
+}
+
+.button2:hover {
+    background-color: hsl(184, 100%, 22%); ;
+    color: hsl(0, 0%, 95%);
+}
+
+
+.button3 {
+    color: hsl(179, 100%, 13%); 
+    font-weight: 400;
+    background-color: hsl(0, 0%, 95%);
+    transition: 0.3s;
+}
+
+.button3:hover {
+    background-color: hsl(179, 100%, 13%); 
+    color: hsl(0, 0%, 95%);
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        height: 200vh;
+    }
+
+    .card {
+        flex-direction: column;
+        height: auto;
+        padding: 2rem;
+    }
+
+}
